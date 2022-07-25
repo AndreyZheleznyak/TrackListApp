@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		845BC8E52889807A003108E3 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BC8E42889807A003108E3 /* TrackListViewController.swift */; };
+		846EBBED288EB1DD00A6FA92 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EBBEC288EB1DD00A6FA92 /* Track.swift */; };
 		847240C828896BD000A6A278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847240C728896BD000A6A278 /* AppDelegate.swift */; };
 		847240CA28896BD000A6A278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847240C928896BD000A6A278 /* SceneDelegate.swift */; };
-		847240CC28896BD000A6A278 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847240CB28896BD000A6A278 /* ViewController.swift */; };
 		847240CF28896BD000A6A278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847240CD28896BD000A6A278 /* Main.storyboard */; };
 		847240D128896BD600A6A278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847240D028896BD600A6A278 /* Assets.xcassets */; };
 		847240D428896BD600A6A278 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847240D228896BD600A6A278 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		845BC8E42889807A003108E3 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
+		846EBBEC288EB1DD00A6FA92 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		847240C428896BD000A6A278 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847240C728896BD000A6A278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847240C928896BD000A6A278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		847240CB28896BD000A6A278 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		847240CE28896BD000A6A278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		847240D028896BD600A6A278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		847240D328896BD600A6A278 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +60,8 @@
 			children = (
 				847240C728896BD000A6A278 /* AppDelegate.swift */,
 				847240C928896BD000A6A278 /* SceneDelegate.swift */,
-				847240CB28896BD000A6A278 /* ViewController.swift */,
+				845BC8E42889807A003108E3 /* TrackListViewController.swift */,
+				846EBBEC288EB1DD00A6FA92 /* Track.swift */,
 				847240CD28896BD000A6A278 /* Main.storyboard */,
 				847240D028896BD600A6A278 /* Assets.xcassets */,
 				847240D228896BD600A6A278 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				847240CC28896BD000A6A278 /* ViewController.swift in Sources */,
 				847240C828896BD000A6A278 /* AppDelegate.swift in Sources */,
 				847240CA28896BD000A6A278 /* SceneDelegate.swift in Sources */,
+				845BC8E52889807A003108E3 /* TrackListViewController.swift in Sources */,
+				846EBBED288EB1DD00A6FA92 /* Track.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +308,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +336,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
