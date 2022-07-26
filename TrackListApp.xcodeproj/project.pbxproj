@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		845BC8E52889807A003108E3 /* TrackListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BC8E42889807A003108E3 /* TrackListViewController.swift */; };
 		846EBBED288EB1DD00A6FA92 /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EBBEC288EB1DD00A6FA92 /* Track.swift */; };
+		846EBBEF28900FE500A6FA92 /* TrackDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846EBBEE28900FE500A6FA92 /* TrackDetailsViewController.swift */; };
 		847240C828896BD000A6A278 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847240C728896BD000A6A278 /* AppDelegate.swift */; };
 		847240CA28896BD000A6A278 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847240C928896BD000A6A278 /* SceneDelegate.swift */; };
 		847240CF28896BD000A6A278 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847240CD28896BD000A6A278 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		845BC8E42889807A003108E3 /* TrackListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackListViewController.swift; sourceTree = "<group>"; };
 		846EBBEC288EB1DD00A6FA92 /* Track.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
+		846EBBEE28900FE500A6FA92 /* TrackDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDetailsViewController.swift; sourceTree = "<group>"; };
 		847240C428896BD000A6A278 /* TrackListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrackListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847240C728896BD000A6A278 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847240C928896BD000A6A278 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				847240C728896BD000A6A278 /* AppDelegate.swift */,
 				847240C928896BD000A6A278 /* SceneDelegate.swift */,
 				845BC8E42889807A003108E3 /* TrackListViewController.swift */,
+				846EBBEE28900FE500A6FA92 /* TrackDetailsViewController.swift */,
 				846EBBEC288EB1DD00A6FA92 /* Track.swift */,
 				847240CD28896BD000A6A278 /* Main.storyboard */,
 				847240D028896BD600A6A278 /* Assets.xcassets */,
@@ -143,6 +146,7 @@
 			files = (
 				847240C828896BD000A6A278 /* AppDelegate.swift in Sources */,
 				847240CA28896BD000A6A278 /* SceneDelegate.swift in Sources */,
+				846EBBEF28900FE500A6FA92 /* TrackDetailsViewController.swift in Sources */,
 				845BC8E52889807A003108E3 /* TrackListViewController.swift in Sources */,
 				846EBBED288EB1DD00A6FA92 /* Track.swift in Sources */,
 			);
