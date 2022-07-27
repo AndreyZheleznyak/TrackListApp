@@ -60,17 +60,57 @@
 		847240C628896BD000A6A278 /* TrackListApp */ = {
 			isa = PBXGroup;
 			children = (
-				847240C728896BD000A6A278 /* AppDelegate.swift */,
-				847240C928896BD000A6A278 /* SceneDelegate.swift */,
-				845BC8E42889807A003108E3 /* TrackListViewController.swift */,
-				846EBBEE28900FE500A6FA92 /* TrackDetailsViewController.swift */,
-				846EBBEC288EB1DD00A6FA92 /* Track.swift */,
-				847240CD28896BD000A6A278 /* Main.storyboard */,
-				847240D028896BD600A6A278 /* Assets.xcassets */,
-				847240D228896BD600A6A278 /* LaunchScreen.storyboard */,
-				847240D528896BD600A6A278 /* Info.plist */,
+				8479E7A228917A1E001FA839 /* App */,
+				8479E7A128917A08001FA839 /* ViewControllers */,
+				8479E79E289179C5001FA839 /* Models */,
+				8479E79F289179DE001FA839 /* StoryBoard */,
+				8479E7A0289179F0001FA839 /* Resources */,
 			);
 			path = TrackListApp;
+			sourceTree = "<group>";
+		};
+		8479E79E289179C5001FA839 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				846EBBEC288EB1DD00A6FA92 /* Track.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8479E79F289179DE001FA839 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				847240CD28896BD000A6A278 /* Main.storyboard */,
+				847240D228896BD600A6A278 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		8479E7A0289179F0001FA839 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				847240D028896BD600A6A278 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8479E7A128917A08001FA839 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				845BC8E42889807A003108E3 /* TrackListViewController.swift */,
+				846EBBEE28900FE500A6FA92 /* TrackDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8479E7A228917A1E001FA839 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				847240D528896BD600A6A278 /* Info.plist */,
+				847240C928896BD000A6A278 /* SceneDelegate.swift */,
+				847240C728896BD000A6A278 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,7 +337,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2BKB4PP8AF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -325,7 +365,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 2BKB4PP8AF;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = TrackListApp/Info.plist;
+				INFOPLIST_FILE = TrackListApp/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
